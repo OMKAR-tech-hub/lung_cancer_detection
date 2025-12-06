@@ -15,7 +15,7 @@ from tensorflow.keras.preprocessing import image
 from streamlit_option_menu import option_menu
 st.set_page_config(page_title='Lung Cancer Detection')
 #Loading models
-cancer_model = load_model('models/keras_model.h5')
+cancer_model = load_model('models/final_model.sav','rb')
 
 
 with st.sidebar:
