@@ -5,4 +5,3 @@ opencv-python-headless
 pillow
 scikit-learn
 matplotlib
-protobuf==4.25.3
